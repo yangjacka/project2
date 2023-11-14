@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  background-color: red;
+  width: 100%;
+  padding: 1rem;
+}
+header h1 {
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
+  font-weight: bolder;
+}
+header h1 i {
+  font-size: 1.75rem;
+}
+
+nav {
+  background-color: #312f2f;
+}
+nav ul {
+  display: flex;
+  padding-left: 1rem;
+}
+nav ul li {
+  padding: 0.5rem 0.75rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #c4c4c4;
+  font-size: 1.75rem;
+}
+nav ul li a:hover {
+  color: red;
+}
+
+section.container {
+  display: flex;
+}
+section.container section.left {
+  padding: 2rem;
+  padding-left: 1rem;
+}
+section.container section.right {
+  padding: 2rem;
+  padding-left: 1rem;
+}
+section.container section.right h5 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bolder;
+}
+section.container section.right iframe {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+div.link1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+div.link2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.div1 {
+  width: 512px;
+  height: 125px;
+  font: 8px;
+  height: 114px;
+}
+
+.div2 {
+  width: 256px;
+  font: 32px/4;
+  padding: 30px;
+}/*# sourceMappingURL=style.css.map */

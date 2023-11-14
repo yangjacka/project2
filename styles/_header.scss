@@ -1,0 +1,15 @@
+header{
+    background-color: $themeColor;
+    width: 100%;
+    padding: 1rem;
+
+    h1{
+        font-size: $fontSize;
+        margin-bottom: 0.5rem;
+        font-weight: bolder;
+
+        i{
+            font-size: $fontSize;
+        }
+    }
+}

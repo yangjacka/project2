@@ -1,0 +1,67 @@
+@import "./reset";
+
+
+$themeColor: red
+;
+
+$fontSize: 1.75rem;
+
+@import "./header";
+
+@import "./nav";
+
+
+section.container{
+    display: flex;
+
+    section.left{
+        padding: 2rem;
+        padding-left: 1rem;
+    }
+
+    section.right{
+        padding: 2rem;
+        padding-left: 1rem;
+
+        h5{
+            font-size: 1.2rem;
+            text-align: center;
+            font-weight: bolder;
+        }
+
+        iframe{
+            border: 1px solid red;
+            border-radius: 10px;
+        }
+    }
+}
+
+@mixin flexbox($direction: column, $justify: center, $align: center){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+div.link1{
+    @include flexbox($align: flex-start);
+}
+
+div.link2{
+    @include flexbox($justify: flex-end, $align: flex-start);
+}
+
+$width: 512px;
+
+.div1{
+    width: $width;
+    height: (250px/2);
+    font: (32px/4);
+    height: 120px - 6;
+}
+
+.div2{
+    width: $width/2;
+    font: 32px/4;
+    padding: 10 + 10px*2;
+}
